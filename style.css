@@ -1,0 +1,110 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Hieronder mag je eigen CSS code */
+
+  body {
+    background-color: rgb(239, 212, 212);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ 
+  a {
+    color: black;
+  }
+
+  @media (max-width: 1000px) {
+    .menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: steelblue;
+      height: 100vh;
+      margin: 0;
+      padding: 1em;
+      width: 10em;
+      flex-direction: column;
+      line-height: 2em
+      
+    }
+    
+    
+      video {
+        width: 50%;
+      }
+
+      .af {
+        width: 45vh;
+      }
+
+      .all{
+        position: left;
+        width: 40%;
+      }
+  
+  }
+
+  .button {
+    background-color: steelblue;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    color: #ccc;
+    text-decoration: none;
+    margin: 1em;
+  }
+
+  .button:hover {
+    background-color: lightsteelblue;
+    color: steelblue;
+  }
+
+  .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba( 0, 0, 0, alpha);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 115, 115);
+  }
+
+  .btnlogin-popup:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+    video {
+      left: 0;
+    }
+    .game {
+      size: 10px;
+    }
+
+    .all{
+      position: center;
+      width: 50%;
+    }
